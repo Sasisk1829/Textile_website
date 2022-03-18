@@ -1,0 +1,150 @@
+:root{
+  --orange:#ffa500;
+}
+
+body{
+  margin: 0; padding: 0;
+  text-transform: capitalize;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  box-sizing: border-box;
+  font-family: 'cursive' sans-serif;
+
+}
+
+
+*::selection{
+  background:var(--orange);
+  color:#fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+section{
+  padding:2rem 9%;
+}
+
+.heading{
+  text-align: center;
+  padding:2.5rem 0;
+    
+}
+
+.heading span{
+  font-size: 3.5rem;
+  background:rgba(255, 165, 0,.2);
+  color:var(--orange);
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+  
+}
+
+.heading span.space{
+  background:none;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:var(--orange);
+  color:#fff;
+  padding:.8rem 3rem;
+  border:.2rem solid var(--orange);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover{
+  background:rgba(255, 165, 0,.2);
+  color:var(--orange);
+}
+
+.sk{
+  position: fixed;
+  top:0; left: 0; right:0;
+  background:#333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 8.5%;
+  height: 9%;
+}
+
+.sk .logo-sk{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:#fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: serif;
+}
+
+.sk .logo-sk span{
+  color:var(--orange);
+}
+
+
+
+.sk .ks .menu_bar{
+  color:#fff;
+  font-size: 2rem;
+  margin:0 .8rem;
+  text-decoration: none;
+  font-family: serif;
+  
+}
+
+.sk .ks .menu_bar:hover{
+  color:var(--orange);
+}
+
+.sk .icons i{
+  font-size: 2.5rem;
+  color:#fff;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.sk .icons i:hover{
+  color:var(--orange);
+}
+
+
+#menu-sk{
+  color:#fff;
+  border:.1rem solid #fff;
+  border-radius: .5rem;
+  font-size: 3rem;
+  padding:.5rem 1.2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.item:hover{
+    filter: brightness(80%);
+}
+
+.item{
+    transition: all 0.5s ease-in-out;
+}
+
+.row {
+  margin-top: 5.5%;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+    padding: 20px 70px 10px;
+}
+
+.container-fluid img{
+  padding-bottom: 5.5%;
+  height: 266px;
+}
+
